@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "ufc_schedule"
+
+UfcSchedule::CLI.new.call

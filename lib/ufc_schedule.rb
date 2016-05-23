@@ -1,5 +1,7 @@
-require "ufc_schedule/version"
+require_relative "ufc_schedule/version"
+require_relative './ufc_schedule/cli'
+require_relative './ufc_schedule/schedule'
 
-module UfcSchedule
-  # Your code goes here...
-end
+require "open-uri"
+#require "nokogiri"
+#require "pry"
